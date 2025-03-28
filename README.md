@@ -10,7 +10,7 @@ This project uses Multiple Linear Regression to predict the profit of startups b
 
 * Administration Costs
 
-*Marketing Expenditure
+* Marketing Expenditure
 
 * Location (State)
 
@@ -20,34 +20,34 @@ The dataset is a classic case study for regression analysis, helping understand 
 The dataset contains the following features:
 
 Feature	 Description
-R&D Spend	Research and Development budget ($)
-Administration	Administrative expenses ($)
-Marketing Spend	Marketing budget ($)
-State	Location of the startup (Categorical)
-Profit	Target variable (Profit in $)
+* R&D Spend	Research and Development budget ($)
+* Administration	Administrative expenses ($)
+* Marketing Spend	Marketing budget ($)
+* State	Location of the startup (Categorical)
+* Profit	Target variable (Profit in $)
 
 # Steps
-Exploratory Data Analysis (EDA)
+1. Exploratory Data Analysis (EDA)
 
-Statistical summaries, correlation heatmaps, and visualizations.
+* Statistical summaries, correlation heatmaps, and visualizations.
 
-Data Preprocessing
+2. Data Preprocessing
 
-Handling categorical data (One-Hot Encoding for State).
+* Handling categorical data (One-Hot Encoding for State).
 
-Train-test split (test_size=0.2).
+* Train-test split (test_size=0.2).
 
-Model Training
+3. Model Training
 
-Multiple Linear Regression (sklearn.linear_model.LinearRegression).
+* Multiple Linear Regression (sklearn.linear_model.LinearRegression).
 
-Evaluation
+4. Evaluation
 
-Metrics: R² Score, Mean Squared Error (MSE), Residual Analysis.
+* Metrics: R² Score, Mean Squared Error (MSE), Residual Analysis.
 
 # Key Insights
-R&D Spend has the strongest positive correlation with profit.
+* R&D Spend has the strongest positive correlation with profit.
 
-Marketing Spend also contributes significantly.
+* Marketing Spend also contributes significantly.
 
-Administration costs show weaker impact.
+* Administration costs show weaker impact.
