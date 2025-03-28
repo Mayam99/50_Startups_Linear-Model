@@ -2,7 +2,8 @@
 
 Predicting Startup Profits Based on R&D, Marketing, and Administrative Expenses
 
-##📌 Overview
+📌 Overview
+
 This project uses Multiple Linear Regression to predict the profit of startups based on key financial metrics:
 
 R&D Spending
@@ -13,7 +14,7 @@ Marketing Expenditure
 
 Location (State)
 
-The dataset is a classic case study for regression analysis, helping understand how different factors contribute to a startup's financial success.
+##The dataset is a classic case study for regression analysis, helping understand how different factors contribute to a startup's financial success.
 
 📊 Dataset
 The dataset contains the following features:
